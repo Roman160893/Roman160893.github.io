@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+.card {
+   display: flex;
+   width: 100%;
+   border: 1px solid;
+   box-shadow:  0 0 5px 2px rgb(105, 105, 100);
+   border-radius: 10px;
+   padding: 10px;
+   margin: 0px 0px 0px 0px ;
+   box-sizing: border-box;
+   margin:0px 10px 10px 10px;
+   background: rgba(0, 0, 0, 0.479);
+   animation-name: items;
+   animation-duration: 2s;
+   animation-timing-function: ease;
+      @keyframes items {
+      0% {
+         opacity: 0;
+         margin-bottom: 1000px;
+      }
+      100% {
+         opacity: 1;
+         margin-bottom: 0 auto;
+      }
+   }
+}
+
+.card__avatar {
+   max-width: 70px;
+   max-height: 70px;
+   margin: 0px 10px;
+
+}
+
+.img {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   border: 1px solid white;
+}
+
+.card__info {
+   flex: 1 1 auto;
+}
+
+.card__info-name {
+   color: white;
+   display: inline-block;
+   font-size: 22px;
+   margin-top: 10px;
+   font-family: 'Oleo Script Swash Caps', cursive;
+}
+.card__info-content {
+   color: white;
+   margin-bottom: 20px;
+   margin-top: 25px;
+   font-size: 22px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 400;
+}
+
+.card__info-nickname {
+   color: #8899a6;
+   position: relative;
+   margin-right: 15px;
+}
+
+.card__info-nickname::after {
+   content: "";
+   width: 2px;
+   height: 2px;
+   border-radius: 50%;
+   background:#8899a6;
+   display: inline-block;
+   position: absolute;
+   top: 12.5px;
+   right: -10px;
+}
+.card__info-date {
+   color: #8899a6;
+}
+
+.card__info-container-image {
+   height: 500px;
+   position: relative;
+}
+
+.card__info-image {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   border-radius: 10px;
+   object-fit:contain;  
+}

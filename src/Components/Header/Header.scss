@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+.header {
+   background: #0F0F0F;
+   padding: 10px 10px;
+   &__container {
+      max-width: 1110px;
+      margin: 0 auto;
+   }
+   &__nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      @media (max-width: 980px) {
+         flex-direction: column;
+      }
+      &-logo {
+         margin: 10px 5px;
+         flex: 0 1 20%;
+         li {
+            a {
+               font-family: 'Rock Salt', cursive;
+               color: white;
+               font-weight: 700;
+               font-size: 32px;
+               line-height: 24px;
+               letter-spacing: 5px;
+               text-decoration: none;
+            }
+         } 
+      }
+      &-links {
+         flex: 0 1 50%;
+         margin: 20px 0px;
+         & ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            li {
+               margin: 10px 0px;
+            }
+            a {
+               color: white;
+               text-decoration: none;
+               margin: 25px 25px 15px 25px;
+               font-family: 'Oleo Script Swash Caps', cursive;
+               letter-spacing: 4px;
+               font-size: 18px;
+               transition: all 0.2s ease;
+               &:hover {
+                  border-bottom: 1px solid aquamarine;
+                  color: aquamarine;
+               }
+            }
+         }
+      }
+      &-button {
+         flex: 0 1 20%;
+         text-align: right;
+         @media (max-width: 980px) {
+            display: none;
+         }
+         a {
+            font-family: 'Oleo Script Swash Caps', cursive;
+            text-decoration: none;
+            color: rgb(20, 12, 12);
+            padding: 10px 50px;
+            font-size: 20px;
+            background: aquamarine;
+            border-radius: 10px;
+            letter-spacing: 3px;
+            transition: all 0.2s linear;
+            &:hover {
+               background: rgba(22, 182, 129, 0.542);
+               color: white;
+            }
+         }
+      }
+   }
+
+}

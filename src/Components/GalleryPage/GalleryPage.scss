@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+.gallery {
+   background: url("../../img/GalleryPage/bg.jpg") 0 0 / cover no-repeat;
+   height: 100vh;
+   padding-top: 20px;
+   overflow: scroll;
+
+   &__container {
+      max-width: 1110px;
+      box-sizing: border-box;
+      margin: 0 auto;
+   }
+   &__content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+   &__item {
+      border: 2px solid rgb(159, 156, 156);
+      box-shadow:  0 0 5px 2px rgb(105, 105, 100);
+      border-radius: 10px;
+      padding: 20px 10px;
+      max-width: 240px;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin: 10px;
+      background: rgba(0, 0, 0, 0.312);
+      animation-name: gallery;
+      animation-duration: 2s;
+      animation-timing-function: ease;
+      @keyframes gallery {
+         0% {
+            opacity: 0;
+         }
+         100% {
+            opacity: 1;
+         }
+   }
+      &:hover {
+         transform: scale(1.03);
+      }
+      &-img {
+         margin-bottom: 20px;
+      }
+      &-name {
+         font-size: 26px;
+         font-family: 'Caveat Brush', cursive;
+         color: rgb(255, 255, 255);
+         span {
+            font-family: 'Oleo Script Swash Caps', cursive;
+            font-size: 22px;
+         }
+      }
+      &-price {
+         font-size: 26px;
+         font-family: 'Caveat Brush', cursive;
+         color: rgb(255, 255, 255);
+         span {
+            font-family: 'Oleo Script Swash Caps', cursive;
+            font-size: 22px;
+         }
+      }
+      &-button{
+         margin-top: 25px;
+         text-align: center;
+         padding: 10px 50px;
+         border: 1px solid;
+         border-radius: 10px;
+         cursor: pointer;
+         font-family: 'Oleo Script Swash Caps', cursive;
+         font-size: 28px;
+         transition: all .2s linear;
+         color: rgb(255, 255, 255);
+         &:hover {
+            background:aquamarine;
+            transform: scale(1.02);
+            border: 1px solid aquamarine;
+            color: rgb(0, 0, 0);
+         }
+      }
+   }
+}
