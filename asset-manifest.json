@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Roman160893/lecture_25/static/css/main.d223f53d.css",
-    "main.js": "/Roman160893/lecture_25/static/js/main.1d675408.js",
-    "static/media/background.png": "/Roman160893/lecture_25/static/media/background.9c799c52feca47bedfff.png",
-    "static/media/bg.jpg": "/Roman160893/lecture_25/static/media/bg.f132958f4d5c8ed878c0.jpg",
-    "static/media/clock1.png": "/Roman160893/lecture_25/static/media/clock1.a708b863dc0da53eb11c.png",
-    "index.html": "/Roman160893/lecture_25/index.html",
-    "main.d223f53d.css.map": "/Roman160893/lecture_25/static/css/main.d223f53d.css.map",
-    "main.1d675408.js.map": "/Roman160893/lecture_25/static/js/main.1d675408.js.map"
+    "main.css": "/lecture_25/static/css/main.be981217.css",
+    "main.js": "/lecture_25/static/js/main.cbae2fe2.js",
+    "static/media/background.png": "/lecture_25/static/media/background.9c799c52feca47bedfff.png",
+    "static/media/bg.jpg": "/lecture_25/static/media/bg.f132958f4d5c8ed878c0.jpg",
+    "static/media/clock1.png": "/lecture_25/static/media/clock1.a708b863dc0da53eb11c.png",
+    "index.html": "/lecture_25/index.html",
+    "main.be981217.css.map": "/lecture_25/static/css/main.be981217.css.map",
+    "main.cbae2fe2.js.map": "/lecture_25/static/js/main.cbae2fe2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d223f53d.css",
-    "static/js/main.1d675408.js"
+    "static/css/main.be981217.css",
+    "static/js/main.cbae2fe2.js"
   ]
 }
