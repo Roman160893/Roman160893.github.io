@@ -85,8 +85,8 @@ class Contact extends Component {
                   </div>
                </div>
                {
-                  this.filter().map((el, index) =>
-                     <Link to={`/contacts/${index}`} >
+                  this.filter().map((el) =>
+                     <Link to={`/contacts/${el.id}`} >
                         <div className='contact__wrapper-card' key={el.id}>
                            <p className='card__wrapper'>
                               {el.gender == 'male' ? <img className='card__icon' src='https://cdn-icons-png.flaticon.com/512/1340/1340619.png' /> :

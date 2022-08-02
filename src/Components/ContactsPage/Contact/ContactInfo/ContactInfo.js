@@ -7,7 +7,7 @@ class ContactInfo extends Component {
    render() {
       const index = this.props.match.params.id;
       const contact = contacts[index]
-
+      console.log(index);
       return (
          <section className='section__contact-info'>
             <div className='contact__wrapper-card contact-info-wrapper' key={contact.id}>
